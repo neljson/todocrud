@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+
+    <!-- <link rel="stylesheet" href="css/styles.css?v=1.0" /> -->
+  </head>
+
+  <body>
+    <h1>TODOS</h1>
+    <div class="todos">
+      <ul id="todo-list"></ul>
+      <li>test</li>
+    </div>
+    <!-- prevent form submitting -->
+    <form onsubmit="return false;">
+      <input id='title' name="title" type="text" value=""></input>
+      <input id= 'description' name="description" type="text" value=""></input>
+      <button type="submit" onclick="addToDo()">submit</button> 
+    </form>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
